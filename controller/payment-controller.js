@@ -61,7 +61,7 @@ export const paytmResponse = (req, response) => {
           post_res.on("end", function () {
             // let result = JSON.parse(res);
             // console.log(result);
-            response.redirect(`http://localhost:3000/`);
+            response.redirect(`https://63d011bb673a0222b62188d3--cheery-lolly-863392.netlify.app/`);
           });
         });
         post_req.write(post_data);
